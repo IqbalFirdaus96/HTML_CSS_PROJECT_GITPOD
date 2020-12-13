@@ -1,3 +1,32 @@
-body{
-    background-color:pink;
+
+#top_navbar{
+    background-color:#D6AD60;
+    color:#010809;
 }
+.welcome_section{
+background-color:#b8bec7;
+height:700px;
+display:flex;
+justify-content:center;
+background-image: url("/images/welcome_muay_thai.jpg");
+
+
+}
+.welcome_col-sm-12{
+    display:flex;
+    justify-content:center;
+    color:white;
+}
+
+a:hover{
+    background-color: #ffdf8f;
+}
+
+
+
+
+/* .welcome_section.col-sm-12 h1{
+
+    justify-content:center;
+
+} */
