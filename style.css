@@ -1,14 +1,13 @@
 
 #top_navbar{
     background-color:#D6AD60;
-    color:#010809;
+    
 }
 .welcome_section{
-background-color:#b8bec7;
-height:700px;
-display:flex;
-justify-content:center;
-background-image: url("/images/welcome_muay_thai.jpg");
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    background-image: url("/images/welcome_muay_thai.jpg");
 
 
 }
@@ -22,11 +21,37 @@ a:hover{
     background-color: #ffdf8f;
 }
 
+.nav-link{
+    color:#010809 !important;
+}
+#learning_martial_arts{
+    height:50vh;
+    background-color:#d6ad60;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+#learning_martial_arts div{
+    text-align: center;
+    width: 70%;
+}
 
 
+.learning_martial_arts_upper{
+    height:5vh;
+    background-color:#a27e33
+}
 
-/* .welcome_section.col-sm-12 h1{
+#benefits_martial_arts{
+    background-color:#d6ad60;
+}
+#benefits_left iframe{
+    position:relative;
+    height:70vh;
+    width:50%
+}
 
-    justify-content:center;
-
-} */
+#benefits_right img{
+    right:70%
+}
